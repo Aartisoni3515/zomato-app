@@ -1,0 +1,12 @@
+.delivery-collections {
+  background: var(--secondary-bg);
+  width: 100%;
+  padding: 40px 0px;
+}
+@media only screen and (max-width: 600px  ) {
+  .delivery-collections {
+    width: 100%;
+    /* margin: auto 35px; */
+  }
+
+}

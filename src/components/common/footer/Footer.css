@@ -1,0 +1,142 @@
+.footer-main {
+  width: 100%;
+  background: rgb(248, 248, 248);
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.footer-top {
+  width: 100%;
+  max-width: 110rem;
+  width: 70rem;
+  padding: 4.8rem 0px 2.2rem;
+  position: relative;
+}
+.footer-logo {
+  height: 1.8rem;
+  width: 10.2rem;
+}
+.heading {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+.logos {
+  display: flex;
+}
+.flag-img {
+  height: 20px;
+  width: 30px;
+}
+.right-logo {
+  display: flex;
+  justify-content: space-between;
+}
+.flag-logo {
+  border: 1px solid gray;
+  border-radius: 12px;
+  width: 60%;
+  height: 25px;
+  padding: 10px 5px 5px 5px;
+  margin: 10px 5px 5px 5px;
+
+}
+
+
+.flag {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.list li {
+  list-style: none;
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  color: rgb(105, 105, 105);
+  margin: 0.5rem 0px;
+}
+
+.list span li {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin: 0px 0px 1.2rem;
+  color: black;
+}
+.flex-list{
+display: flex;
+justify-content: space-evenly;
+
+
+}
+.flex-list li{
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  justify-content: center;
+  text-align: center;
+  padding: 8px 6px 2px 8px;
+  margin: 1px 7px 0px 3px;
+  font-size: 20px;
+}
+
+.store-logo img {
+    width: 70%;
+    height: 40px;
+}
+.line{
+font-size: 1rem;
+color: rgb(79, 79, 79);
+line-height: 1.7rem;
+margin-top: 2.3rem;
+font-family: Arial, Helvetica, sans-serif;
+}
+@media only screen and (max-width: 600px  ) {
+
+  .footer-main {
+    width: 100%;
+    background: rgb(248, 248, 248);
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+  }
+  .footer-top {
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    /* width: 70rem; */
+    /* padding: 4.8rem 0px 2.2rem; */
+    /* position: relative; */
+  }
+
+
+  .heading{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .footer-logo{
+    margin-left: 0px;
+  }
+  .right-logo{
+    margin-top: 20px;
+  }
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -7px;
+  }
+  
+}
